@@ -6,7 +6,7 @@
   "homepage": "https://github.com/Maks-c/goit-js-hw-10",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /draft-teamwork-parcel/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
   },
   "repository": {
     "type": "git",
