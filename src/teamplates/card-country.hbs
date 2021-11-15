@@ -1,0 +1,16 @@
+
+{{#each this}}
+<div class="card-country">
+
+  <div class="card-body">
+   <h2 class="card-title"><img src="{{flags.svg}}" width="30" height="30" alt="{{name.official}}">{{name.official}}</h2>
+    <p class="text">capital:{{capital}}</p>
+    <p class="text">population:{{population}}</p>
+    {{#each languages}}
+    <ul class="list-group" style="display: flex; align-items: center">
+      <li class="list-group-item" style ="list-style-type: none;">{{this}}</li>
+    </ul>
+    {{/each}}
+  </div>
+</div>
+{{/each}}
